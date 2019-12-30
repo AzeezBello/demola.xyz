@@ -1,12 +1,10 @@
 import React from 'react';
-import 'tachyons';
+import { Switch, Route, BrowserRouter } from 'react-router-dom';
 import './App.css';
+import 'tachyons';
 import Hero from './Components/Hero';
 import Projects from './Components/Projects';
-import Arrow from './Components/Arrow';
 import Contact from './Components/Contact';
-import Navbar from './Components/Navbar/Navbar';
-// import Scroll from './scroll.png';
 
 class App extends React.Component {
   // constructor(props) {
@@ -24,11 +22,13 @@ class App extends React.Component {
   render () {
     return (
       <div className="bg-black"> 
-        <Navbar />      
-        <Hero />
-        <Arrow />
-        <Projects />
-        <Contact /> 
+        <BrowserRouter> 
+          <Switch>
+            <Route exact path="/" component={Hero} />
+            <Route exact path="/Projects" component={Projects} />
+            <Route exact path="/Contact" component={Contact} />
+          </Switch>
+        </BrowserRouter>
       </div>
     )
   }

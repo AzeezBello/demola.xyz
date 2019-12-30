@@ -1,84 +1,97 @@
 import React from "react";
+import {
+  Container, Col, Form,
+  FormGroup, Label, Input,
+  Button,
+} from 'reactstrap';
+
+import Navbar from './Navbar/Navbar';
+import demola from '../Img/demola.png';
+import LinkedIN from '../Img/LinkedIN.svg';
+import Github from '../Img/Github.svg';
+import Behance from '../Img/Behance.svg';
+
 
 const Contact = props => (
 
-  <div id="contact" className="mt-5 pt-5">
-    <div class="mt-5">
-      <div class="cf ph2-ns">
-        <h2 class="white">Get In Touch</h2>    
+  <div id="contact" className="">
+    <Navbar />    
+    <div class="pt-5">
+      <div class="p-5 cf ph2-ns">
+           
         <div class="row">        
           <div class="col-sm-6">
+          <img src={demola}  alt="Demola"/>
               <div class=" pv4">
-                <ul>
-                  <li>Github</li>
-                  <li>LinkedIn</li>
-                  <li>Behance</li>
-                </ul>
+                <div className="icons">
+                  <ul>
+                    <li><img src={Github} className="navbarimage" alt="Github"/><a href='https://github.com/AzeezBello'> Github </a></li>
+                    <li><img src={LinkedIN} className="navbarimage" alt="LinkedIn"/><a href='https://www.linkedin.com/in/azeez-bello-48205a11a'> LinkedIn</a></li>
+                    <li><img src={Behance} className="navbarimage" alt="Behance"/><a href='https://www.behance.net/demolablaze'>Behance</a></li>
+                  </ul>
+                </div>
               </div>
           </div>
           
           <div class="col-sm-6 p-5">
-            <form id="contact-form" name="contact-form" action="" method="POST">
-              <div class="row">
-             
-                <div class="col-md-6">
-                  <div class="md-form mb-0">
-                    <label for="name" class="">First name</label>
-                    <input type="text" id="name" name="name" class="form-control" /> 
-                  </div>
-                </div>
-                   
-                <div class="col-md-6">
-                  <div class="md-form mb-0">
-                    <label for="email" class="">Last name</label>
-                    <input type="text" id="email" name="email" class="form-control" />    
-                  </div>
-                </div>
-                   
-              </div>
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="md-form mb-0">
-                    <label for="subject" class="">Your email</label>
-                    <input type="text" id="subject" name="subject" class="form-control" />
-                  </div>
-                </div>
-              </div>
-
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="md-form mb-0">
-                    <label for="subject" class="">phone</label>
-                    <input type="text" id="subject" name="subject" class="form-control" />
-                  </div>
-                </div>
-              </div>
-
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="md-form mb-0">
-                    <label for="subject" class="">Company</label>
-                    <input type="text" id="subject" name="subject" class="form-control" />
-                  </div>
-                </div>
-              </div>
-
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="md-form">
-                    <label for="message">Your message</label>
-                    <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
-                  </div>
-                </div>
-              </div>
-
-            </form>
+          <Container className="App">
+            <h2 className="white">Send me a Message</h2>
+            <Form className="form pt-5">
+            <Col>
+                <FormGroup>
+                  <Label for="examplePassword">Full Name</Label>
+                  <Input
+                    type="text"
+                    name="fullName"
+                    id="fullName"
+                    placeholder="John Doe"
+                  />
+                </FormGroup>
+              </Col>
+              <Col>
+                <FormGroup>
+                  <Label>Email</Label>
+                  <Input
+                    type="email"
+                    name="email"
+                    id="exampleEmail"
+                    placeholder="myemail@email.com"
+                  />
+                </FormGroup>
+              </Col>
+              <Col>
+                <FormGroup>
+                  <Label>Phone Number</Label>
+                  <Input
+                    type="int"
+                    name="phoneNumber"
+                    id="phoneNumber"
+                    placeholder="+2347064463920"
+                  />
+                </FormGroup>
+              </Col>
+              <Col>
+                <FormGroup>
+                  <Label>Message</Label>
+                  <Input
+                    type="textarea"
+                    name="message"
+                    id="message"
+                    placeholder="I would like to ......"
+                  />
+                </FormGroup>
+              </Col>
+              <Button >Submit</Button>
+            </Form>
+          </Container>
           </div>
         </div>
      
 
       </div>
     </div>
+
+
   </div>
 );
 
@@ -89,3 +102,4 @@ export default Contact;
 
 
 
+    

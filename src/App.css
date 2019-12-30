@@ -34,37 +34,60 @@
   }
 } */
 
-
+body {
+background-color: #000;
+}
 
 /* Hero header */
-.hero{
-  height: 650px;
-}
-.hero h1 {
+
+.header-text {
   font-size: 5em;
-  /* margin: .67em 0; */
   text-align: center;
 
 }
-.hero p {
+.subheader {
+  font-size: 2em;
   text-align: center;
 }
 
-
+.cta{
+  text-align: center;
+  margin-top: 4em;
+  padding: 2em;
+}
 .arrow{
   position: absolute;
-  width: 48px;
-  height: 48px;
   left: 616px;
   top: 512px;
 
 }
 
 /* Contact */
+label{
+  color: white;
+}
 input {
   background-color: #000 !important;
 }
 
 textarea {
   background-color: #000 !important;
+}
+
+.icons ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.icons li {
+  float: left;
+  padding: 5px;
+}
+.icons li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
