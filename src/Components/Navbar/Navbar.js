@@ -8,7 +8,7 @@ import {
 
 const Navbar = () => {
     return(
-        <div>
+        <div className="fixed-top">
             <nav className="navbar navbar-expand-lg navbar-dark">
                 <Link to="/">
                 <div className="navbar-brand ml3" href="/#" >
