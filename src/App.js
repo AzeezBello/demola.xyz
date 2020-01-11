@@ -1,7 +1,6 @@
 import React from 'react';
 import { Switch, Route, BrowserRouter } from 'react-router-dom';
 import './App.css';
-import 'tachyons';
 import Hero from './Components/Hero';
 import Projects from './Components/Projects';
 import Contact from './Components/Contact';
