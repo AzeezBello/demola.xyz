@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactTypingEffect from 'react-typing-effect';
 import Navbar from './Navbar/Navbar';
+// import Pagination from './Pagination/Pagination'
 // import Arrow from './Arrow';
 import ScholarX from '../Img/ScholarX.png';
 import NgoNetwork from '../Img/NgoNetwork.png';
@@ -15,9 +16,8 @@ const Hero = () => {
     return (        
         <div className="hero">
             <Navbar />    
-            <div className="p-5">
-                
-                <div className="white pt-5">
+            <div className="mt-5 p-5">    
+                <div className="pt-5">
                     
                     <ReactTypingEffect
                         className="header-text"
@@ -34,9 +34,7 @@ const Hero = () => {
                     />
                 
                 </div>  
-             
             </div>
-
             <div className="cta">
                 
                 <a href="/village" >

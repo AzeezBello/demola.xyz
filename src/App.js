@@ -21,7 +21,7 @@ class App extends React.Component {
 
   render () {
     return (
-      <div className="bg-black"> 
+      <div className=""> 
         <BrowserRouter> 
           <Switch>
             <Route exact path="/" component={Hero} />
