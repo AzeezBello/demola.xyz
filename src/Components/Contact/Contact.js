@@ -1,15 +1,16 @@
 import React from "react";
+import './contact.css';
 import {
   Container, Col, Form,
   FormGroup, Label, Input,
   Button,
 } from 'reactstrap';
 
-import Navbar from './Navbar/Navbar';
-import demola from '../Img/demola.png';
-import LinkedIN from '../Img/LinkedIN.svg';
-import Github from '../Img/Github.svg';
-import Behance from '../Img/Behance.svg';
+import Navbar from './../Navbar/Navbar';
+// import demola from '../../Img/demola.png';
+import LinkedIN from '../../Img/LinkedIN.svg';
+import Github from '../../Img/Github.svg';
+import Behance from '../../Img/Behance.svg';
 
 
 const Contact = props => (
@@ -21,7 +22,7 @@ const Contact = props => (
            
         <div class="row">        
           <div class="col-sm-6">
-          <img src={demola}  alt="Demola"/>
+          {/* <img src={demola}  alt="Demola"/> */}
               <div class=" pv4">
                 <div className="icons">
                   <ul>

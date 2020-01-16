@@ -1,10 +1,10 @@
 import React from 'react';
+import './hero.css'
 import ReactTypingEffect from 'react-typing-effect';
-import Navbar from './Navbar/Navbar';
-// import Pagination from './Pagination/Pagination'
+import Navbar from './../Navbar/Navbar';
 // import Arrow from './Arrow';
-import ScholarX from '../Img/ScholarX.png';
-import NgoNetwork from '../Img/NgoNetwork.png';
+import ScholarX from '../../Img/ScholarX.png';
+import NgoNetwork from '../../Img/NgoNetwork.png';
 
  
 
@@ -35,6 +35,7 @@ const Hero = () => {
                 
                 </div>  
             </div>
+
             <div className="cta">
                 
                 <a href="/village" >

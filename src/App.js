@@ -1,9 +1,9 @@
 import React from 'react';
 import { Switch, Route, BrowserRouter } from 'react-router-dom';
 import './App.css';
-import Hero from './Components/Hero';
-import Projects from './Components/Projects';
-import Contact from './Components/Contact';
+import Hero from './Components/Hero/Hero';
+import Projects from './Components/Portfolio/Projects';
+import Contact from './Components/Contact/Contact';
 
 class App extends React.Component {
   // constructor(props) {
