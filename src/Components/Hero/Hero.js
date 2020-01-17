@@ -39,7 +39,7 @@ const Hero = () => {
             <div className="cta">
                 
                 <a href="/village" >
-                    <button type="button" className="btn btn-primary">View Portfolio</button>
+                    <button type="button" className="btn btn-lg btn-primary">View Portfolio</button>
                 </a>
                 <a href="/campaign/create" className="ml-4">Download Resume &rarr;</a>
 
@@ -59,13 +59,13 @@ const Hero = () => {
                         />
                     </h2>
 
-                    <div class="row  ">        
-                        <div class="col-sm-6">
-                            <div class=" pv4">
+                    <div class="row pt-5">        
+                        <div class="col-sm-6 dance">
+                            <div className="">
                                 <img src={ScholarX} alt="ScholarX" className="mt3" />
                             </div>
                         </div>
-                        <div class="col-sm-6">
+                        <div class="col-sm-6 dance">
                             <div class="pv4">
                                 <img src={NgoNetwork}  alt="NgoNetwork"  className="mt3"  />
                             </div>
