@@ -62,12 +62,12 @@ const Hero = () => {
                     <div class="row pt-5">        
                         <div class="col-sm-6 dance">
                             <div className="">
-                                <img src={ScholarX} alt="ScholarX" className="mt3" />
+                                <img src={ScholarX} alt="ScholarX" className="mt3 img-fluid" />
                             </div>
                         </div>
                         <div class="col-sm-6 dance">
                             <div class="pv4">
-                                <img src={NgoNetwork}  alt="NgoNetwork"  className="mt3"  />
+                                <img src={NgoNetwork}  alt="NgoNetwork"  className="mt3 img-fluid"  />
                             </div>
                         </div>
                     </div>

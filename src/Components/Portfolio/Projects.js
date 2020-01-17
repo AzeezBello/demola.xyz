@@ -17,12 +17,12 @@ const Projects = () => {
                     <div class="row p-5 ">        
                         <div class="col-sm-6">
                             <div class=" pv4">
-                            <img src={ScholarX} alt="ScholarX" className="mt3" />
+                            <img src={ScholarX} alt="ScholarX" className="mt3 img-fluid" />
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="pv4">
-                                <img src={NgoNetwork}  alt="NgoNetwork"  className="mt3"  />
+                                <img src={NgoNetwork}  alt="NgoNetwork"  className="mt3 img-fluid"  />
                             </div>
                         </div>
                     </div>
@@ -30,12 +30,12 @@ const Projects = () => {
                     <div class="row p-5 ">        
                         <div class="col-sm-6">
                             <div class=" pv4">
-                            <img src={ScholarX} alt="ScholarX" className="mt3" />
+                            <img src={ScholarX} alt="ScholarX" className="mt3 img-fluid" />
                             </div>
                         </div>
                         <div class="col-sm-6">
                             <div class="pv4">
-                                <img src={NgoNetwork}  alt="NgoNetwork"  className="mt3"  />
+                                <img src={NgoNetwork}  alt="NgoNetwork"  className="mt3 img-fluid"  />
                             </div>
                         </div>
                     </div>
