@@ -12,7 +12,7 @@ img.navbarimage {
   z-index: 1030;
 } */
   .navbar-light .navbar-nav .nav-link {
-    color: #01134A;
+    color: #F16334 !important;
     font-weight: 600;
   }
   .navbar-light .navbar-toggler {

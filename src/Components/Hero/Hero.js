@@ -41,7 +41,7 @@ const Hero = () => {
                 <a href="/village" >
                     <button type="button" className="btn btn-lg btn-primary">View Portfolio</button>
                 </a>
-                <a href="/campaign/create" className="ml-4">Download Resume &rarr;</a>
+                <a href="/campaign/create" className="ml-4"><b>Download Resume &rarr;</b></a>
 
             </div>
 

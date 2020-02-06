@@ -52,8 +52,8 @@
 
 /* Button */
 .btn-primary {
-  background-color: #96B46B !important;
-  border-color: #96B46B !important;
+  background-color: #F16334 !important;
+  border-color: #F16334 !important;
 }
 
 .btn-primary:hover,
@@ -64,3 +64,20 @@
 }
 
 /* Button ends*/
+
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  /* custom css */
+  body{
+    background-color: #1c1c1c;
+    color: #fefefe
+  }
+  a{
+    color: #F16334 !important;
+  }
+  img{
+    filter:grayscale(20%);
+  }
+  
+}
