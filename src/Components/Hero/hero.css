@@ -1,27 +1,45 @@
 
 /* Hero header */
+.hero{
+  margin: auto;
+  text-align: center;
+}
 
 .header-text {
-    font-size: 5em;
-    text-align: center;
-  
-  }
-  .subheader {
-    font-size: 2em;
-    text-align: center;
-  }
-  
-  .cta{
-    text-align: center;
-    margin-top: 4em;
-    padding: 2em;
-  }
-  .cta a {
-    color:  #F16334 !important;
-  }
-  .arrow{
-    position: absolute;
-    left: 616px;
-    top: 512px;
-  
-  }
+  font-size: 5em;
+}
+
+.subheader {
+  font-size: 2em;
+}
+
+.cta{
+  margin-top: 2em;
+  padding: 1em;
+}
+
+.cta a {
+  color:  #F16334 !important;
+}
+
+.icons{
+  margin: auto;
+  width: 40%;
+}
+.icons ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+.icons li {
+  float: left;
+  margin: 20px;
+  padding: 20px;
+}
+
+.icons li a {
+  display: inline-block;
+  color: #2a2a2a;
+  padding: 14px 16px;
+  text-decoration: none;
+}
