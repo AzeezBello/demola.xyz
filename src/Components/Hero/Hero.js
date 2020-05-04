@@ -25,6 +25,7 @@ const Hero = () => {
                         speed="50"
                         // eraseDelay="2000"
                     />
+                    <br />
 
                     <ReactTypingEffect
                         className="subheader"
