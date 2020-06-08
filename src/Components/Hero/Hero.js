@@ -17,8 +17,7 @@ const Hero = () => {
         <div className="hero">
             <Navbar />    
             <div className="mt-5 p-5">    
-                <div className="pt-5">
-                    
+                <div className="typing-header pt-5">  
                     <ReactTypingEffect
                         className="header-text"
                         text={switchHeader}
@@ -32,23 +31,35 @@ const Hero = () => {
                         text={switchSubHeader}
                         speed="50"
                     />
-                
                 </div>  
             </div>
 
-            <div className="cta">    
-                <a href="/Projects" >
-                    <button type="button" className="btn btn-lg btn-primary">View Portfolio</button>
-                </a>
-                <a href="https://drive.google.com/open?id=1juDl-BvM4UF_hPA6j8IpuXWYq7hBUh7R" className="ml-4"><b>Download Resume &rarr;</b></a>     
+            <div className="cta">
+                <div class="row mx-auto">        
+                    <div class="col-sm-6 p-2">    
+                        <a href="/Projects" >
+                            <button type="button" className="btn btn-lg btn-primary ">View Portfolio &rarr;</button>
+                        </a>
+                    </div>
+                    <div class="col-sm-6 p-2">      
+                        <a href="https://drive.google.com/open?id=1juDl-BvM3UF_hPA6j8IpuXWYq7hBUh7R">
+                            <button type="button" className="btn btn-lg btn-outline-primary">Download Resume &rarr;</button>
+                        </a> 
+                    </div>    
+                </div>
             </div>
 
-            <div className="icons">
-                <ul>
-                    <li><a href='https://github.com/AzeezBello'><img src={Github}  alt="Github"/> </a></li>
-                    <li><a href='https://www.linkedin.com/in/azeez-bello-48205a11a'><img src={LinkedIN}  alt="LinkedIn"/></a></li>
-                    <li><a href='https://www.behance.net/demolablaze'><img src={Behance} alt="Behance"/></a></li>
-                </ul>
+            <div className="icons row mt-3">
+                <div class="col p-2"> 
+                    <a href='https://github.com/AzeezBello'><img src={Github}  alt="Github"/> </a>
+                </div>
+                <div class="col p-2"> 
+                    <a href='https://www.linkedin.com/in/azeez-bello-48205a11a'><img src={LinkedIN}  alt="LinkedIn"/></a>
+                </div>
+                <div class="col p-2"> 
+                    <a href='https://www.behance.net/demolablaze'><img src={Behance} alt="Behance"/></a>
+                </div>
+                
             </div>
             
         </div>
