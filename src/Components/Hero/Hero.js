@@ -35,13 +35,13 @@ const Hero = () => {
             </div>
 
             <div className="cta">
-                <div class="row mx-auto">        
-                    <div class="col-sm-6 p-2">    
+                <div className="row mx-auto">        
+                    <div className="col-sm-6 p-2">    
                         <a href="/Projects" >
                             <button type="button" className="btn btn-lg btn-primary ">View Portfolio &rarr;</button>
                         </a>
                     </div>
-                    <div class="col-sm-6 p-2">      
+                    <div className="col-sm-6 p-2">      
                         <a href="https://drive.google.com/open?id=1juDl-BvM3UF_hPA6j8IpuXWYq7hBUh7R">
                             <button type="button" className="btn btn-lg btn-outline-primary">Download Resume &rarr;</button>
                         </a> 
@@ -50,13 +50,13 @@ const Hero = () => {
             </div>
 
             <div className="icons row mt-3">
-                <div class="col p-2"> 
+                <div className="col p-2"> 
                     <a href='https://github.com/AzeezBello'><img src={Github}  alt="Github"/> </a>
                 </div>
-                <div class="col p-2"> 
+                <div className="col p-2"> 
                     <a href='https://www.linkedin.com/in/azeez-bello-48205a11a'><img src={LinkedIN}  alt="LinkedIn"/></a>
                 </div>
-                <div class="col p-2"> 
+                <div className="col p-2"> 
                     <a href='https://www.behance.net/demolablaze'><img src={Behance} alt="Behance"/></a>
                 </div>
                 

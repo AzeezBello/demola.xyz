@@ -1,34 +1,27 @@
 import React from 'react';
-import './portfolio.css';
 import Navbar from './../Navbar/Navbar';
 import ScholarX from '../../Img/ScholarX.png';
 import NgoNetwork from '../../Img/NgoNetwork.png';
-
 
 
 const Projects = () => {
     return(
         <div >
             <Navbar />    
-            <div class="pt-5">
-                <div class="pt-5 cf ph2-ns">
-                    <h2 class="white pt-5 pl-5">My Projects</h2>   
-                    <div class="row p-5 ">        
-                        <div class="col-sm-6">
-                            <img src={ScholarX} alt="ScholarX" className="mt3 img-fluidshadow" />
-                        </div>
-                        <div class="col-sm-6">
-                            <img src={NgoNetwork}  alt="NgoNetwork"  className="mt3 img-fluid"  />  
-                        </div>
+            <div className="pt-5">   
+                <h2 className="pt-5 pl-5">My Projects</h2>   
+                <div className="row p-4">        
+                    <div className="col-sm-6 mb-5">
+                        <img src={ScholarX} alt="ScholarX" className="img-fluid" />
                     </div>
-
-                    <div class="row p-5 ">        
-                        <div class="col-sm-6">
-                            <img src={ScholarX} alt="ScholarX" className="mt3 img-fluid" />
-                        </div>
-                        <div class="col-sm-6">
-                            <img src={NgoNetwork}  alt="NgoNetwork"  className="mt3 img-fluid"  />
-                        </div>
+                    <div className="col-sm-6 mb-5">
+                        <img src={NgoNetwork}  alt="NgoNetwork"  className="img-fluid"  />  
+                    </div>
+                    <div className="col-sm-6 mb-5">
+                        <img src={ScholarX} alt="ScholarX" className="img-fluid" />
+                    </div>
+                    <div className="col-sm-6 mb-5">
+                        <img src={NgoNetwork}  alt="NgoNetwork"  className="img-fluid"  />
                     </div>
                 </div>
             </div>

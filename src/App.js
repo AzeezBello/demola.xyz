@@ -20,9 +20,10 @@ class App extends React.Component {
 
   render () {
     return (
-      <div className=""> 
+      <div> 
         <BrowserRouter> 
           <Switch>
+            <Route exact path="/" component={Hero} />
             <Route exact path="/" component={Hero} />
             <Route exact path="/Projects" component={Projects} />
             <Route exact path="/Contact" component={Contact} />
