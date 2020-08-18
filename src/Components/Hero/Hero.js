@@ -43,7 +43,7 @@ const Hero = () => {
                     </div>
                     <div className="col-sm-6 p-2">      
                         <a href="https://drive.google.com/open?id=1juDl-BvM3UF_hPA6j8IpuXWYq7hBUh7R" target="_blank"  rel="noopener noreferrer">
-                            <button type="button" className="btn btn-lg btn-outline-primary">Download Resume &rarr;</button>
+                            <button type="button" className="btn btn-lg btn-outline-primary">PDF Resume &rarr;</button>
                         </a> 
                     </div>    
                 </div>
