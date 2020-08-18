@@ -6,17 +6,6 @@ import Projects from './Components/Portfolio/Projects';
 import Contact from './Components/Contact/Contact';
 
 class App extends React.Component {
-  // constructor(props) {
-  //   super(props);
-  //   this.sayHello = this.sayHello.bind(this);
-  // }
-
-  // sayHello() {
-  //   document.querySelector('.thebutton').onclick = function (){
-  //     document.querySelector('.downpart').style.display = 'block';
-  //   }
-  // }
-  
 
   render () {
     return (
