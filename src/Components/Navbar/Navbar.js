@@ -1,6 +1,6 @@
 import React from 'react';
 import './Navbar.css';
-import Logo from '../../Img/leo-lion-head-side.svg';
+import Logo from '../../Img/Ade.png';
 import {
     BrowserRouter as Router, Link
   } from "react-router-dom";
