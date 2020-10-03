@@ -12,7 +12,7 @@ const Navbar = () => {
             <nav className="navbar navbar-expand-lg navbar-light">
                 <Link to="/">
                 <div className="navbar-brand ml3" >
-                    <img src={Logo} className="navbarimage" alt="..."/> 
+                    <img src={Logo} className="navbarimage" alt="Logo"/> 
                 </div> 
                 </Link>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
