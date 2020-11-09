@@ -10,8 +10,8 @@ import Behance from '../../Img/Behance.svg';
  
 
 const Hero = () => {
-    const switchHeader =["Hello...","I'm Demola Bello"]
-    const switchSubHeader =["Welcome to Demola.xyz"]
+    const switchHeader =["I'm Demola Bello", ]
+    const switchSubHeader =["Welcome to Demola.xyz",]
 
     return (        
         <div className="hero">
@@ -20,6 +20,7 @@ const Hero = () => {
                 <div className="typing-header pt-5">  
                     <ReactTypingEffect
                         className="header-text"
+                        staticText="Hello!"
                         text={switchHeader}
                         speed="50"
                         // eraseDelay="2000"
