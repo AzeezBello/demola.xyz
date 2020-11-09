@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactTypingEffect from 'react-typing-effect';
 import Navbar from './../Navbar/Navbar';
-import NgoNetwork from '../../Img/NgoNetwork.png';
 
 
 const About = () => {
@@ -14,29 +13,25 @@ const About = () => {
             <div className="pt-5">   
                 <div className="row p-4">        
                     <div className="col-sm-12 mb-5">
-                    <div className="typing-header text-center">  
-                        <ReactTypingEffect
-                            staticText="About"
-                            className="header-text"
-                            text={switchHeader}
-                            speed="50"
-                            eraseDelay="9000"
-                        />
-                        <br />
-                
-                
-                        <ReactTypingEffect
-                            className="subheader"
-                            text={switchSubHeader}
-                            speed="50"
-                            eraseDelay="9000"
-                        />
-                    </div>  
+                        <div className="typing-header text-center">  
+                            <ReactTypingEffect
+                                staticText="About"
+                                className="header-text"
+                                text={switchHeader}
+                                speed="50"
+                                eraseDelay="9000"
+                            />
+                            <br />
+                    
+                    
+                            <ReactTypingEffect
+                                className="subheader"
+                                text={switchSubHeader}
+                                speed="50"
+                                eraseDelay="9000"
+                            />
+                        </div>  
                     </div>
-                    {/* <div className="col-sm-6 mb-5">
-                        <img src={NgoNetwork}  alt="NgoNetwork"  className="img-fluid"  />   
-                    </div> */}
-                   
                 </div>
             </div>
 
