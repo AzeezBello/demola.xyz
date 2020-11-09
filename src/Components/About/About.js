@@ -28,7 +28,7 @@ const About = () => {
                                 className="subheader"
                                 text={switchSubHeader}
                                 speed="50"
-                                eraseDelay="9000"
+                                eraseDelay="15000"
                             />
                         </div>  
                     </div>
