@@ -21,17 +21,17 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul className="navbar-nav ml-auto navbartextcolor">
                         <li className="nav-item">
-                                <Link to="/">
+                                <Link to="/about">
                                     <span className="nav-link" href="#about">About</span>
                                 </Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="/Projects">
+                                <Link to="/projects">
                                     <span className="nav-link" href="#projects">Portfolio</span>
                                 </Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="/Contact">
+                                <Link to="/contact">
                                     <span className="nav-link" href="  #contact">Contacts</span>
                                 </Link>    
                             </li>

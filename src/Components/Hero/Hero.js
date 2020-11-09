@@ -35,16 +35,16 @@ const Hero = () => {
             </div>
 
             <div className="cta">
-                <div className="row mx-auto">        
-                    <div className="col-sm-6 p-2">    
-                        <a href="/Projects" >
-                            <button type="button" className="btn btn-lg btn-primary ">View Portfolio &rarr;</button>
-                        </a>
-                    </div>
+                <div className="row mx-auto">  
                     <div className="col-sm-6 p-2">      
-                        <a href="https://drive.google.com/open?id=1juDl-BvM3UF_hPA6j8IpuXWYq7hBUh7R" target="_blank"  rel="noopener noreferrer">
-                            <button type="button" className="btn btn-lg btn-outline-primary">PDF Resume &rarr;</button>
+                        <a href="/about">
+                            <button type="button" className="btn btn-lg btn-outline-primary">About Me &rarr;</button>
                         </a> 
+                    </div>      
+                    <div className="col-sm-6 p-2">    
+                        <a href="/projects" >
+                            <button type="button" className="btn btn-lg btn-primary ">Portfolio &rarr;</button>
+                        </a>
                     </div>    
                 </div>
             </div>
